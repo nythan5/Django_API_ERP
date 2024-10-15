@@ -4,6 +4,8 @@ from rest_framework.response import Response
 from accounts.models import User
 from accounts.serializers import UserSerializer
 
+# Retorna as infos do user logado
+
 
 class GetUser(Base):
     permission_classes = [IsAuthenticated]
