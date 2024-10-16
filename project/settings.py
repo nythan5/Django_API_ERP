@@ -149,7 +149,7 @@ REST_FRAMEWORK = {
 
 SIMPLE_JWT = {
     # Aqui apenas definimos o tempo de vida do TOKEN.
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=1),
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=1),
     'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
 
     # Aqui ele renova o tempo cada vez que o TOKEN é utilizado.
